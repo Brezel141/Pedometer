@@ -1,0 +1,13 @@
+Class Pedometer:
+    Attribute: date (string)
+    Attribute: steps (integer, initialized to 0)
+    
+    Method __init__(date: string):
+        set this.date to date
+        set this.steps to 0
+
+    Method incrementSteps():
+        increase this.steps by 1
+
+    Method toString() -> string:
+        return "Am " + this.date + " bin ich " + this.steps + " Gelaufen."
